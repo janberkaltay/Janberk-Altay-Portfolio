@@ -1,0 +1,45 @@
+.projects-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+
+.projects-header{
+    size: 40px;
+    display: flex;
+    flex-direction: row;
+    color: blueviolet;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+
+.projects-name {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.resim {
+    width: auto;
+    height: 600px;
+}
+
+.description {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}

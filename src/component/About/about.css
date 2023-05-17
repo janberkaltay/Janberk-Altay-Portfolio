@@ -1,0 +1,82 @@
+.section-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1700px;
+    max-width: 95%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    width: 1700px;
+    max-width: 95%;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+.section-2 h2 {
+    color: blueviolet;
+    font-size: 32px;
+}
+
+.education {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    width: 1700px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.experience-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1cm;
+    flex-wrap: wrap;
+}
+
+
+.experience h2 {
+    padding-bottom: 16px;
+    color: blueviolet;
+}
+
+.experience-item {
+    display: flex;
+    margin-bottom: 1cm;
+    flex-direction: row;
+}
+
+.experience-logo {
+    width: auto;
+    height: 125px;
+    margin-right: 16px;
+}
+
+.tarsus {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarsus-logo {
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+}
